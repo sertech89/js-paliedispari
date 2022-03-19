@@ -30,11 +30,11 @@ function checkParola() {
     inputName = inputName.toLowerCase();
     console.log(inputName);
 
-    // usiamo SPLIT per trasformare una parola in array, ogni lettere è un elemento
+    // usiamo SPLIT per trasformare una parola in array, ogni lettera è un elemento
     let arrayName = inputName.split("");
     console.log(arrayName);
 
-    //utilizzo il reverse per mettere all'incontrario gli elementi dell array
+    //utilizzo il REVERSE per mettere al contrario gli elementi dell'array
     let reverseArray = arrayName.reverse();
     console.log(reverseArray);
     
@@ -43,6 +43,7 @@ function checkParola() {
     console.log(reverseInputName);
 
     // creiamo le condizioni con if
+    
     // prima condizione: se la parola inserita è uguale al suo inverso, è palindromo
     if ( inputName === reverseInputName ) {
 
